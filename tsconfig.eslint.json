@@ -25,8 +25,7 @@
     "jsx": "preserve"
   },
   "include": [
-    "src/default/modules/account.instance._/**/*",
-    "src/**/*"
+    "src/default/modules/account.instance._/**/*"
   ],
   "exclude": [
   ]
