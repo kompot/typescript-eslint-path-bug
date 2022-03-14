@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "DOM",
+      "ES2020",
+      "ESNext.Intl"
+    ],
+    "allowJs": true,
+    "skipLibCheck": false,
+    "esModuleInterop": true,
+    "importsNotUsedAsValues": "error",
+    "noUnusedLocals": false,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "noEmit": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "src/default/modules/account.instance._/**/*",
+    "src/**/*"
+  ],
+  "exclude": [
+  ]
+}
